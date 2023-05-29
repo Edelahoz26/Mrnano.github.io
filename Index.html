@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/page.css">
+
 </head>
 <body>
     
@@ -26,11 +28,17 @@
                     <li><a href="shop.html">Tienda</a></li>
                     <li><a href="Rsv.html">Reserva</a></li>
                     <li><a href="Contact.html">Contacto</a></li>
-                    <li><a href="InstagramNavbar.html">Instagram</a></li>
-                    <li><a href="cart.hmtl"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
-
+                    <li id="lg-bag"><a href="cart.hmtl"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a></li>
+                    <a href="#" id="close"> <i class="fa-solid fa-xmark" style="color: black"></i></a>
                 </ul>
         
+        </div>
+
+        <div id="mobile" >
+            
+            <a href="cart.hmtl"><i class="fa-sharp fa-solid fa-bag-shopping"></i></a>
+
+            <i id="bar" class="fas fa-outdent"></i>
         </div>
 
     </section>
@@ -44,13 +52,31 @@
 
 <section id="product1" class="section-p1">
         <div class="pro-container">
+
+            <div class="pro" onclick="window.location.href='sdproduct.html';">
+                <img src="img/f675d6_89ed7bb498b6422393f69223e024ef53~mv2.png" >
+                <div class="des">
+                    <span>NANO MAGIC</span>
+                    <h4>$35.000,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></i></a>
+            </div>
+            <!-- <div class="pro">
+                <img src="img/f675d6_89ed7bb498b6422393f69223e024ef53~mv2.png" >
+                <div class="des">
+                    <span>NANO MAGIC</span>
+                    <h4>$35.000,00</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></i></a>
+            </div>
+
             <div class="pro">
                 <img src="img/f675d6_89ed7bb498b6422393f69223e024ef53~mv2.png" >
                 <div class="des">
                     <span>NANO MAGIC</span>
                     <h4>$35.000,00</h4>
                 </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178;"></i></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></i></a>
             </div>
             <div class="pro">
                 <img src="img/f675d6_89ed7bb498b6422393f69223e024ef53~mv2.png" >
@@ -58,40 +84,133 @@
                     <span>NANO MAGIC</span>
                     <h4>$35.000,00</h4>
                 </div>
-                <a href="#"><i class="fa-solid fa-cart-shopping" style="color: #088178;"></i></i></a>
-            </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></i></a>
+            </div> -->
+            
         </div>
 
 </section>
 
-<section id="inf">
-    
-    <div class="inf-container">
-        
-        <div class="so-inf">
-                <div class="so-inf-img">
-            <img class="imginf" src="img/ro1.webp"  > 
-            <div class="ro1">
-                <h3>Liquido de Nanotecnologia</h3>
-                <p>Aprovecha los descuentos</p>
-            </div>    
-        </div>
+<section id="banner">
+
+    <div class="banner-box">
+        <h4>Liquido de Nanotecnologia</h4>
+        <span>Aprovecha los descuentos</span>
+    </div>
+    <div class="banner-box1">
+        <h4>Blindaje completo</h4>
+        <span>No esperes mas</span>
     </div>
 
-        <div class="so-inf">
-                <div class="so-inf-img">
-                <img class="imginf" src="img/f675d6_89ed7bb498b6422393f69223e024ef53~mv2.png">
-                <div class="ro1">
-                    <h3>Liquido de Nanotecnologia</h3>
-                    <p>Aprovecha los descuentos</p>
-                </div> 
-            </div>        
+
+    
+<!--     <div class="inf-container">
+        
+        <div class="so-f">
+
+            <img src="https://static.wixstatic.com/media/11062b_f13926808e3446af803f36be1301c945~mv2.jpg/v1/fill/w_790,h_303,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_f13926808e3446af803f36be1301c945~mv2.jpg" alt="Aceite esencial">
+            
+            <div class="so-inf-cont">
+                
+            </div>
         </div>
+        
+        <div class="so-inf">
+            <img src="https://static.wixstatic.com/media/11062b_2a3b29d45738483cba66091ef8d2f0d4~mv2.jpg/v1/fill/w_790,h_303,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_2a3b29d45738483cba66091ef8d2f0d4~mv2.jpg" alt="Equipo de seguridad">
 
         </div>
+
+        </div> -->
     
 </section>
 
-    <script src="js/script.js"></script>
+
+<div class="container_media">
+    <div class="media">
+        <h4>Todos los videos</h4>
+        <video preload="none" controls autoplay muted class="video">
+            <source src="/img/2.mp4" type="video/mp4">
+        </video>
+    </div>
+    <input type="search" placeholder="Busca tu Archivo" class="search" />
+
+    <div class="galery">
+        <div class="galery_media">
+            <video preload="none" controls autoplay muted class="galery_video">
+                <source src="/img/1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="galery_media">
+            <video preload="none" controls autoplay muted class="galery_video2">
+                <source src="/img/2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="galery_media">
+            <video preload="none" controls autoplay muted class="galery_video">
+                <source src="/img/3.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<div class="container_contact">
+    <form action="">
+        <h3 class="title">CONTACTO</h3>
+        <label for="">Nombre *</label>
+        <div class="container_inputs">
+            <input type="text" placeholder="Ingrese el asunto" required class="input">
+        </div>
+        <label for="">Email *</label>
+        <div class="container_inputs">
+            <input type="text" placeholder="Ingrese el asunto" required class="input">
+        </div>
+        <label for="">Asunto *</label>
+        <div class="container_inputs">
+            <input type="text" placeholder="Ingrese el asunto" required class="input">
+        </div>
+        <label for="">Mensaje *</label>
+        <div class="container_inputs">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escribe un mensaje aqui ......" required
+                class="area"></textarea>
+        </div>
+
+        <button class="enviar">ENVIAR</button>
+    </form>
+</div>
+<h3 class="title">NUESTROS SERVICIOS</h3>
+<div class="container_services">
+    <div class="service1">
+        <img class="img_service" src="/img/service1.jpg" alt="">
+        <h3 class="subTitle">Cita blindaje completo</h3>
+        <span class="description">30 MIN</span>
+        <span class="description">$58.000</span>
+        <button class="reserve"><a href="https://wa.me/qr/PEM7VLP5OONQK1">Solicitud de reserva</a></button>
+    </div>
+    <div class="service2">
+        <img class="img_service2" src="/img/service2.jpg" alt="">
+        <h3 class="subTitle">Cita blindaje normal</h3>
+        <span class="description">30 MIN</span>
+        <span class="description">$58.000</span>
+        <button class="reserve"><a href="https://wa.me/qr/PEM7VLP5OONQK1">Solicitud de reserva</a></button>
+    </div>
+</div>
+
+<h3 class="title">Subscribe Form</h3>
+<div class="container_email">
+    <input type="email" placeholder="e.g., email@example.com" required class="email" />
+    <button class="btnEmail">Join</button>
+</div>
+
+ <footer>
+        <div class="container_footer">
+            <div class="footer">
+                <h3 class="title_footer">Mr Nano</h3>
+                <span class="description">delahozedgardo4@gmail.com</span>
+                <img class="img_insta" src="/Mrnano.github.io/img/instagram.png" widht="5px" alt="">
+                <span class="description">©2023 por Mr Nano.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
 </body>
 </html>

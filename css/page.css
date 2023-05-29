@@ -1,0 +1,209 @@
+
+.container_media{
+    width: 100%;
+    height: 1000px;
+}
+
+.media{
+    width: 100%;
+    height: 590px;
+}
+
+.media h4{
+    margin-left: 450px;
+}
+
+.video{
+    width: 50%;
+    height: 529px;
+    margin-left: 450px;
+    background-color: black;
+}
+
+
+.galery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 38px;
+}
+
+.search {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 30px;
+    width: 955px;
+    border-bottom: solid 1px #ccc;
+    border: transparent;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.search:hover{
+    background-color: rgb(202, 194, 194);
+    background-size: 24px;
+}
+
+.galery_video, .galery_video2{
+    height: 160px;
+    margin-right: 15px;
+    width: 307px;
+}
+
+.galery_video2{
+    background-color: black;
+}
+
+
+
+/* CONTENEDOR DE CONTACTO */
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.container_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.input, .area{
+    width: 955px;
+    height: 50px;
+    border-color: transparent;
+    border-bottom: solid 0.5px black;
+    margin-bottom: 25px;
+    outline: none;
+}
+.area{
+    height: 100px; 
+}
+
+.input:hover{
+    border: solid 0.5px black;
+}
+
+.area:hover{
+    border: solid 0.5px black;
+}
+
+.enviar{
+    width: 955px;
+    height: 50px;
+    background-color: #088178;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 100px;
+    border: none;
+    border-radius: 4px;
+}
+
+.container_services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.service1, .service2{
+    display: flex;
+    flex-direction: column;
+    border: solid 0.5px gray;
+}
+
+.img_service, .img_service2{
+    width: 600px;
+    border-bottom: solid 0.5px gray;
+}
+
+.img_service2{
+    height: 600px;
+}
+
+.subTitle{
+    border-bottom: solid 0.5px gray;
+    width: 520px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.description{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.reserve{
+    width: 200px;
+    height: 50px;
+    background-color:#088178;;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.reserve a{
+
+   
+    color: #fff;
+    text-decoration: none;
+}
+
+.container_email{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 200px;
+}
+
+.email {
+    background-size: 30px;
+    width: 500px;
+    height: 50px;
+    border: solid 2px black;
+    outline: none;
+}
+
+.btnEmail{
+    width: 80px;
+    height: 50.5px;
+    background-color: #088178;
+    border-color: black;
+    border: none;
+    margin-left: -20px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 0px;
+    border-radius: 4px;
+    
+}
+
+.btnEmail:hover{
+    background-color:#fff;
+    color: black;
+    border: solid 2px black;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.description{
+margin-right: 50px;
+margin-top: 30px;
+}
+
+.img_insta{
+    width: 20px;
+    margin-left: 940px;
+}
